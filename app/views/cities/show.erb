@@ -1,0 +1,31 @@
+<h2><%=@city.name%>, <%=@city.state.name%></h2>
+
+
+<a href="/states/<%=@city.state.id%>/cities/<%=@city.id%>?day=Monday">Monday</a>
+<a href="/states/<%=@city.state.id%>/cities/<%=@city.id%>?day=Tuesday">Tuesday</a>
+<a href="/states/<%=@city.state.id%>/cities/<%=@city.id%>?day=Wednesday">Wednesday</a>
+<a href="/states/<%=@city.state.id%>/cities/<%=@city.id%>?day=Thursday">Thursday</a>
+<a href="/states/<%=@city.state.id%>/cities/<%=@city.id%>?day=Friday">Friday</a>
+
+
+
+
+
+
+
+    <% @deals.all.each do |d| %>
+      <div class="styleBox">
+        <ul>
+          <li><%=d.location%></li>
+            <li><%=d.offer%></li>
+          <li><%=d.details%></li>
+          <li><%=d.day_of_week%></li>
+        </ul>
+      </div>
+
+
+
+
+
+
+    <%end%>

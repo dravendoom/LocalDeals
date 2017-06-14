@@ -1,0 +1,4 @@
+Deal.create(city_id: 3,location:"247 billygoat street boy lane",offer:"free pizza at monday my dude",details:"its fun to eat here so come eat it.",day_of_week:"Monday")
+Deal.create(city_id: 3,location:"504 bobs nip shack",offer:"nips are really good tips",details:"eat out erre day here",day_of_week:"Wednesday")
+Deal.create(city_id: 3,location:"499 tupac village.com",offer:"i got 2pac of beer u for 2$",details:"ya, dis place pretty good",day_of_week:"Thursday")
+Deal.create(city_id: 3,location:"300 snoop",offer:"free dog wit yo rice",details:"dog is good for you",day_of_week:"Friday")
